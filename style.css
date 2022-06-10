@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500;600&family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+.myContainer {
+    width: 80vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+.box{
+    border: 2px solid black;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: #e0ecec;
+}
+.bl-0{
+    border-left-width: 0;
+}
+.br-0{
+    border-right-width: 0;
+}
+.bt-0{
+    border-top-width: 0;
+}
+.bb-0{
+    border-bottom-width: 0;
+}
+
+.container2{
+    text-align: center;
+}
+.container2 h1{
+    margin: 20px;
+}
+.container2 h3{
+    margin: 20px;
+}
+
+.container2 button{
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+    background-color: #80808087;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.3s ease-in-out;
+}
+.container2 button:hover{
+    color: #80808087;
+    background-color: #fff;
+}
+.container2 p{
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.gif{
+    visibility: hidden;
+    margin-top: 60px;
+}
+.gif img{
+    width: 300px; 
+    height: 200px;
+    border-radius: 10px;
+}
